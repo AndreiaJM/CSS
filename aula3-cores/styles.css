@@ -1,0 +1,15 @@
+/* Há a forma resumida de uso das cores hexadecimais caso os dois digitos do canal seja igual*/
+/*Coloca-se apenas um digito*/
+/*canais de cores: R, G, B, A */
+p{
+    font-size: 20pt;
+    font-weight: bold;
+    color: #000;
+    background-color: #f09;
+    
+}
+
+/*cor em hexadecimal */
+h1{
+    color: rgb(50,60,70);
+}

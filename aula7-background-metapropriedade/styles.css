@@ -1,0 +1,20 @@
+/*Metapropriedade - background*/
+
+
+body{
+    background: url(./assets/imagem/imagem.jpg) no-repeat #505050 center 0px / 400px fixed;
+
+    /*para colocar o tamanho da imagem coloca-se uma barra para separar do position, o valor em porcentagem deixa do tamanho da janela e responsivo*/
+
+    /*O valor center pode ser usado para o eixo x*/
+}
+
+/*Seria a mesma coisa que usar todas as pripriedades: 
+
+background-image: url();
+background-position: no-repeat;
+background-color: #505050;
+background-position: x,y;
+
+
+*/

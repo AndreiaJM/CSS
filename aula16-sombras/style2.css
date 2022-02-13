@@ -1,0 +1,16 @@
+/*
+    Usa-se a propriedade box-shadow: para sombra em display block
+
+    parametros: rigth, bottom, blur, tamanho do blur
+*/
+
+
+div{
+    width: 300px;
+    height: 300px;
+    border: black solid 1px;
+
+    /*usa-se o elemento abaixo:*/
+
+    box-shadow: 15px 10px 10px greenyellow;
+}

@@ -1,0 +1,21 @@
+div{
+    width: 250px;
+    height: 250px;
+    border: #000 solid 1px;
+    /*background: linear-gradient(to top, #000, #f00);*/
+
+    /*background: radial-gradient(#000,#f00);*/
+
+    /*Para colocar o grau do gradiente basta acrescentar no começo o graus com o "deg". A porcentagem apos a cor mostra aonde começara a cor*/
+
+    /*
+    background: linear-gradient(20deg, #000 0%, #f00 85%);*/
+
+    background: repeating-linear-gradient(#000 0%, #f00 20%);
+
+    /*Para repetir o gradiente varias vezes basta inserir o repeting no começo*/
+
+    /*O gradiente acompanha a forma, porem se inserido o cicle como primeiro parametro sera forçado a variação de circulo*/
+
+
+}

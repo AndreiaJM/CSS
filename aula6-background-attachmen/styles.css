@@ -1,0 +1,16 @@
+body{
+    background-image: url(./assets/imagem/imagem.jpg), url(./assets/imagem/fundo.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: 400px, 500px;
+    
+    background-attachment: scroll, fixed;
+    /*background-attachment: scroll: valor padão em que a imagem rola junto com a tela*/
+
+    /*como todas as propriedades, a de background pode ser colocado mais de uma imagem*/
+}
+
+/*
+
+background attachment faz com que a imagem do background role junto com a tela ou fique fixa de acordo com o que o que for definido para ela
+
+*/

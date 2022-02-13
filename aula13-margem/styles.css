@@ -1,0 +1,27 @@
+/*Distancia dos elementos com relação a bordas */
+
+body{
+    margin: 0px;
+}
+
+div{
+    border: 1px solid black;
+    margin: 50px 200px 300px 50px;
+    text-align: center;
+}
+
+/*por padrão a pagina ja possui uma margem*/
+
+/*IMPORTANTE
+
+a margin:auto so funciona se a largura estiver definida, ou seja se tiver a propriedade width definida
+
+ultilizar margin-bottom é melhor para separar as divs que a tag br do html
+
+*Importante*
+
+Saber diferenciar elementos e seus conteudos.
+
+para centralizar texto ou imagem usa-se a propriedade margin, e para centralizar conteudo de texto text-align center
+
+*/

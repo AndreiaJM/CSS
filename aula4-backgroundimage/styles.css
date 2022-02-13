@@ -1,0 +1,41 @@
+/*A imagem aplicada no body tente a se repetir ate ocupar o espaço total
+caso não seja do tamanho da tela, no eixo x e y*/
+
+body{
+    background-image: url(./assets/imagens/imagem.jpg), url(./assets/imagens/quadrinhos.jpg);
+    background-size: 200px, 400px; 
+    background-repeat: no-repeat, repeat-y;
+    background-position: 200px 0px;
+
+}
+
+p{  
+    font-size: 70px;
+    background-image: url(./assets/imagens/imagemrepetida.jpg);
+    background-repeat: repeat-x;
+    background-size: 200px;
+}
+
+/*Aprendendo a trabalhar com background:
+
+backgroud-image: url(): 
+
+insere a imagem no background
+
+backgroud-repeat: no-repeat/repeatY /reapeatX
+
+evita o comportamento padrão da imagem no browser que é a repetição da mesma.
+
+background-position:
+
+Posição da imagem na tela
+
+background-size: 
+
+tamanho da imagem na tela
+
+background-color: 
+
+cor do background
+
+*/

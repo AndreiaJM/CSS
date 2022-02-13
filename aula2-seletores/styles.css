@@ -1,0 +1,17 @@
+/*alem do id e classe podemos selecionar a partir das tags*/
+
+/*para mesmo estilo em tags diferentes coloca-se as tags separando por virgula */
+
+/*o id possui hierarquia maior que as tags */
+
+
+p{
+    font-weight: lighter; /*fonte leve*/
+}
+
+h1,h2,h3,h4,h5,h5{
+    color: blue;
+    font-size: 20pt
+    
+    
+}

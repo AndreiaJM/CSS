@@ -1,0 +1,28 @@
+p{  
+    width: 300px;
+
+    /*cor, estilo, largur*/
+    border-top: #000 solid 20px; 
+    border-bottom: #f00 double 20px ;
+    border-right: blue dotted 20px;
+    border-left: green groove 20px;
+
+    /*configurando as bordas separadamente, as de cima estamos usando a meta propriedade*/
+
+    border-top-width: 10px;
+    border-bottom-width:  5px;
+    border-left-width:  10px;
+    border-right-width: 10px;
+
+    border-top-style: solid;
+    border-bottom-style: dotted;
+    border-right-style: double;
+    border-left-style: groove;
+
+    border-top-color: #000;
+    border-bottom-color: #000;
+    border-right-color: #000;
+    border-left-color: #000;
+
+
+}

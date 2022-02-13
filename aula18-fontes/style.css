@@ -1,0 +1,14 @@
+p{
+
+    /*tipo de fonte*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*negrito*/
+    font-weight: lighter;
+    /*tamanho da fonte*/
+    font-size: 30px;
+    /*itálico*/
+    font-style: oblique;
+    font-variant: small-caps; /*Deixa tudo em maiusculo inclusive as letras maiusculas que ficam maiores*/
+
+    /*Para o uso do google fontes basta inserir o link da letra no header e o nome da letra no font family */
+}

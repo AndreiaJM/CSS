@@ -1,0 +1,13 @@
+/*
+Padding e espaçamento interno dos elementos
+*/
+
+body{
+    margin: 0%;
+}
+
+div{
+    border: solid 1px;
+    margin-bottom: 50px;
+    
+}

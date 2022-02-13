@@ -1,0 +1,17 @@
+/*arredondamento de bordas*/
+
+div{
+
+    width: 400px;
+    height: 400px;
+    background: #505050 ;
+    border: #000 solid 20px;
+    
+}
+
+/*Valor inserido no border:
+cor, tipo, largura*/
+
+#d2{
+    border-radius: 0px 40px 0px 40px; /*eixos:border: borda superior esquerda / borda superior direita / borda inferior direita / borda inferior esquerda ; */
+}

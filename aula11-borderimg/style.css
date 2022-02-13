@@ -1,0 +1,6 @@
+/*através da propriedade border-image podemos colocar imagens na borda*/
+
+P{
+    border: 100px solid;
+    border-image: url(./assets/imagem/gato.png) 100 round;
+}

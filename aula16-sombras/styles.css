@@ -1,0 +1,12 @@
+/*
+Sombras em texto
+
+Da pra colocar quantas sombras quiser, primeiros parametros definem o eixos, o ultimo parametro o blur define a transparencia*/
+
+h1{
+    font-size: 100pt;
+    color: #f00;
+    
+    text-shadow: 5px 5px 10px #505050, -5px -5px 10px #f00, -5px 5px 10px black;
+    
+}

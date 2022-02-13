@@ -1,0 +1,18 @@
+/*links são formatados como textos*/
+
+
+a{  
+    
+    background: rgb(7, 7, 41);
+    color: white;
+    text-align:center;
+    font-size: 20pt;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5%;
+    margin-right: 5px;
+}
+
+a:hover{
+    background: rgba(106, 106, 110,0.7);
+}

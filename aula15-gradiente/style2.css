@@ -1,0 +1,17 @@
+/*
+Texto gradiente
+*/
+
+h1{
+    
+    font-size: 50px;
+    background: linear-gradient(#000, pink);
+    -webkit-text-fill-color: transparent;
+    /*Gambiarra, o texto não esta gradiente, apenas esta transparente e a propriedade abaixo cortou a area do texto, ou seja o H1 é que esta gradiente cortado em forma do texto */
+    -webkit-background-clip: text;
+
+}
+
+div{
+    background-color: black;
+}
