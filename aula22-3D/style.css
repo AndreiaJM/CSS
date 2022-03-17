@@ -1,0 +1,21 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000000;
+
+    /* backface-visibility: hidden; indica se a parte de 
+    traz do elemento sera vista ao rotacionar*/
+    transform: (70deg);
+}
+body{
+    /*perspective: 15px; /*rotaciona  de acordo com essa perspectiva, que seria a noção de profundidade e não uma rotação chapada, é aplicado do body */
+}
+
+/*
+A diferença do 3D é que existe o eixo z
+
+transform: rotateZ
+
+backface-visibility: hidden; indica se a parte de traz ficara visivel ou não
+
+*/

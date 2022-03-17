@@ -1,0 +1,45 @@
+div{
+    border: 1px solid #000;
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    display: table-cell;
+    /*alinhamento vertical, funcina apenas para table cell*/
+    vertical-align: middle;
+    text-align: center;
+}
+
+ol,ul,li{
+    border: 1px solid #000;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+ol{
+    display: table;
+    width: 300px;
+
+}
+
+ul{
+    display: table-row;
+}
+
+li{
+    display: table-cell;
+    text-align: center;
+}
+
+#title{
+    background-color: aqua;
+}
+
+/*
+display: table-cell;
+vertical-align: 
+Table = tabela
+table-row = linha da tabela
+table-cell = celulas da tabela
+*/

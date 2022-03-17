@@ -1,0 +1,39 @@
+.d1{
+
+    border: 1px solid #000;
+    width: 300px;
+    height: 300px;
+    display: inline;
+}
+
+.d2{
+    border: 1px solid #000;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.s1{
+    border: 1px solid #000;
+}
+
+.s2{
+    border: 1px solid #000;
+}
+
+/*
+Display: 
+
+block
+inline
+inline
+block
+none
+visibility
+
+        o display inline block assume conportamento de linha permitindo outros elementos em sua linha e de block podendo ter ser tamanho alterado pelo width e heigth
+
+visibility: elemento é renderizado porem não é mostrado na tela, fica invisível
+
+
+        */

@@ -1,0 +1,27 @@
+/*
+pseudo-elementos: 
+
+first-letter = formatação da primeira letra 
+
+first-line = formatação da primera linha.
+
+selection = formatação na pagina inteira do texto selecionado
+
+*/
+
+
+p.p1::first-letter{
+    color: aqua;
+    font-size: 30px;
+}
+
+p.p2::first-line{
+    background-color: aqua;
+}
+
+/*Propriedade altera o texto quantdo selecionado com mouse na pagina inteira para o estilo em que definirmos*/
+::selection{
+    background-color: black;
+    color: aqua;
+
+}

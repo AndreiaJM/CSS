@@ -1,0 +1,60 @@
+/*position: static/absolute/relative/sticky/
+
+transform: translate = eixo x e y
+
+z-index = define qual elemento ira aparecer um na frente do outro
+
+position
+transform
+z-index
+
+*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#div1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    background: blue;
+    position: absolute;
+    right: 0%;
+    
+}
+#div2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    background: violet;
+    
+}
+#div3{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    background: red;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    
+    
+}
+
+#interna{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background: green;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    
+    
+}

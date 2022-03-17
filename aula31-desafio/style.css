@@ -1,0 +1,50 @@
+
+
+header{
+    height: 150px;
+}
+
+nav{
+    background: tomato;
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+
+a{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div{
+    border: 1px solid tomato;
+    min-width: 160px;
+    max-width: 160px;
+    min-height: 80px;
+    max-height: 80px;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+footer{
+    background: grey;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}

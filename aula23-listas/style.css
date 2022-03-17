@@ -1,0 +1,25 @@
+ul, ol{
+    display: table-cell;
+    
+    align-items: center;
+    border: 1px solid #000;
+}
+
+li{
+    color: green;
+    border: 1px solid #000;
+}
+
+/*é possivel criar imagem e colocar como estilo da lista*/
+
+/*list-style-image:url() = adicionar imagem 
+
+list-style-position: inside = marcador é trabalhado na mesma area do li
+
+list-style = metapropriedade 
+
+list-style-image:url()
+list-style-position: inside
+list-style
+
+*/

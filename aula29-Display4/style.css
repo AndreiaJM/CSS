@@ -1,0 +1,40 @@
+section{
+    height: 500px;
+    border: solid #f00 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+div{
+    border: solid #000 1px;
+    width: 100px;
+}
+
+/*
+justify-content
+align-items
+flex-direction
+flex: 1
+flex-wrap
+min-width
+
+justify-content=alinhamneto horizontal do itens
+
+align-items = alinhamento vertical  do itens
+
+flex-direction = direção dos itens
+
+/*O container é definido com o display flex torna os seus elementos filhos flexiveis.
+
+Os elementos filhos são movidos atraves da propriedade flex
+
+flex: 1; = ajusta de acordo com o espaço do container
+
+flex-wrap: wrap; = quebra da linha quando a tela diminuir
+
+min-width define o minimo que ficara o container quando a tela for diminuda
+
+*/

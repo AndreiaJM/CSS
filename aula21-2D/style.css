@@ -1,0 +1,22 @@
+div{
+    width: 300px;
+    height: 300px;
+    border: 1px black solid;
+    /*transform: translate(100px);*/
+    /*transform: rotate(45deg);*/
+    /* transform: scale(2) rotate(45deg);*/
+    /* transform: scale(4); dobra o tamanho do elemento*/
+    /*transform: skewX(-45deg) skewY(45deg);*/
+    /*transform: skew(-45deg, 45deg)*/
+
+    /*Todas as propriedades juntas na ordem de uso: */
+
+    transform: matrix(scaleX, skewY,skewX,scaleY, translateX, translateY);
+
+    /*Para colocar mais de uma propriedade coloca-se no mesmo transform*/
+
+    /*transform-origin: ponto de origem*/
+
+    transform-origin: 100% 100%; /*eixo x e y*/
+    
+}

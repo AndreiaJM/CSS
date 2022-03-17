@@ -1,0 +1,15 @@
+/*outline é a borda do conteudo que não ocupa espaço na tela, acaba ficando na frente ou atrás dos outro conteúdos*/
+
+div{
+    border: 1px solid #000;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    outline: #000 10px solid;
+}
+
+span{
+    border: 1px solid #000;
+    outline: #000 40px solid;
+    
+}

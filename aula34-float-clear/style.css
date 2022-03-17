@@ -1,0 +1,35 @@
+/*
+
+float:
+clear
+overflow
+
+a propriedade float cria um novo contexto para o elemento, neste caso ele fica flutuando acima de outro elementos porem não esconde conteudo da tag por exemplos textos, o p ficara abaixo mais o texto não
+
+overflow = No elemento pai contabiliza os elementos que estão flutuando 
+
+clear: both = se estiver qualquer elemento flutando o conteudo é colocado abaixo;
+
+a definição both verifica os dois lados, se estiver so de um lado o conteudo é posicionado no outro
+
+caso haja dois elementos um do lado do outro e a largura for maior que a metade o conteudo <p> é posicionado abaixo
+
+*/
+
+#img1{
+    float: right;
+}
+
+#img2{
+    float: left;
+}
+
+section{
+    
+    background-color: cornflowerblue;
+    overflow: hidden; /**cotabiliza elementos flutuando/
+}
+
+p{
+    clear: both;
+}

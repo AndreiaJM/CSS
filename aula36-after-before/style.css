@@ -1,0 +1,24 @@
+/*
+pseudo elementos, o qual é necessário a propriedade: content 
+para inserir um conteudo antes ou depois de algum conteudo. Apos definido o conteudo é possível estiliza-lo
+
+::before/::after
+
+*/
+p.cfb::before{
+    content: "antes";
+    color: blue;
+    font-size: 30px;
+}
+
+p::before{
+    content: "antes";
+    color: blue;
+    font-size: 30px;
+}
+
+p::after{
+    content: "depois";
+    color: red;
+    font-size: 30px;
+}

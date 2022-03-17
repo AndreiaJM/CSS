@@ -1,0 +1,38 @@
+table, th, td{
+    border: solid #000 1px;
+}
+
+table{
+    width: 500px;
+    table-layout: fixed;
+    border-collapse:collapse; /*Elimina dos espaçamentos da tabela
+    border-spacing: 50px 10px;*/
+    empty-cells: hide; /*retira celula vazia*/
+}
+
+td,th{
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+th{ 
+    font-size: 30px;
+    color: #fff;
+    background-color: #8a8;
+}
+
+/*comando preenche os pares, não é exclusivo de tabelas */
+tr:nth-child(even){
+    background-color: #ddd;
+
+}
+
+/*
+table-layout:
+table-layout:
+border-collapse:
+empty-cells:
+vertical-align:
+*/
+
+

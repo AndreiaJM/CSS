@@ -1,0 +1,47 @@
+ul{
+    font-size: 25px;
+    list-style-type: none;
+    padding: 0px;
+    
+    
+}
+
+li{
+    border: 1px solid black;
+    width: 150px;
+    height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgb(131, 104, 156);
+}
+
+li:hover{
+    background-color: rgba(54, 1, 104, 0.404);
+    color: #fff;
+}
+
+/*
+
+list-style-type:
+list-style-image: url()
+list-style-position:
+list-style:
+vertical-align:
+display:
+
+
+list-style-type: square;
+list-style-image: url(); = para colocar imagens como marcador, importante ser png
+
+list-style-position: inside; O marcador é trabalhado junto da area do li
+
+list-style: metapropriedade
+
+liste-style: none = desabilita o marcador
+
+vertical-align:middle = texto no meio
+display: table-cell = enfileira a lista
+
+
+*/

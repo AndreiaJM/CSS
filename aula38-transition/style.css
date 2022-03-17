@@ -1,0 +1,28 @@
+/*
+transition:
+transition-timing-function
+
+A propriedade transition é ativada por algum evento como a de passa o mouse por cima
+
+é colocada no proprio elemento definindo o tempo que cada alteração sera mudada
+
+transition-timing-function = define a constancia da velocidade de transição
+
+*/
+p{
+    width: 300px;
+    height: 250px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    transition: width 2s, height 2s, color 2s,background-color 2s ;
+    transition-timing-function: ease-in-out;
+}
+
+p:hover{
+    width: 500px;
+    height: 120px;
+    background-color: #f00;
+    color: #fff;
+}
