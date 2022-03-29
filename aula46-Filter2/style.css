@@ -1,0 +1,17 @@
+/*Com o filter pode ser alterado brilho, contraste, blur(embaçamento), escala de cinza, sombra, rotacionar matiz, inverter as cores, transparencia, saturação e cor envelhecida*/
+
+img{
+    filter: drop-shadow(5px 5px 5px black);/*Sombra projetada(distX,distY, tam, cor)*/
+
+    filter:hue-rotate(0deg);/*Rotaciona a matiz(cor) colocado em deg*/
+
+    filter:invert(0);/*Inverte as cores: 0 sem inversão, 1 com inversão*/
+
+    filter:opacity(0%);/*Opacidade (transparencia)*/
+
+    filter:saturate(0%);/*Saturação da cor, ex: "cor viva ou morta"*/
+
+    filter: sepia(50%);/*Sepia, envelhecimento"*/
+
+
+}

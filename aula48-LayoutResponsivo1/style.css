@@ -1,0 +1,46 @@
+/*Responsividade é adaptar o site para diversos tamanho de celular*/
+
+/*@media retorna verdadeiro ou falso
+nele colocamosa as regras, se visualizado por um dispositivo diferente do especificado o @media retorna falso e as regras não serão executadas
+
+pode der definido o dispositivo conforme abaixo:
+
+@media print: impressora
+@media screen: tela
+@media speech: leitores de arquivos digitais
+@media all: todos dispositivos
+
+*/
+
+body{
+    background: yellow;
+}
+
+img{
+    width: 300px;
+}
+
+@media screen and (min-width:0px) and (max-width:500px){
+
+    body{
+        background: #f00;
+    }
+
+}
+
+@media screen and (min-width:501px) and (max-width:700px){
+
+    body{
+        background: blue;
+    }
+
+}
+
+@media screen and (min-width:701px) and (max-width:900px){
+
+    body{
+        background: green;
+    }
+
+}
+

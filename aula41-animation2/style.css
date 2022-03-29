@@ -1,0 +1,43 @@
+/*Animation não precisa de um evento para ser executado como o transition*/
+
+/*
+*/
+
+/*@keyframes anima{
+    0% {left:500px;top:500px}
+    14% {left:0px;top:0px}
+    28% {background-color: #fff;left:0px;top:0px;}
+    42% {background-color: red;left:0px;top:0px;}
+    57%{background-color: red;left:0px;top:0px;}
+    71%{background-color: #fff;left:0px;top:0px;}
+    85%{left:0px;top:0px}
+    100% {left:500px;top:500px}
+}*/
+
+@keyframes anima{
+    0% {left:0px;top:0px}
+    25% {left:500px;top:0px}
+    50% {left:500px;top:500px}
+    75% {left:0px;top:500px}
+    100% {left:0px;top:0px}
+}
+
+p{  
+    position: relative;
+    left: 500px;
+    top: 500px;
+    width: 260px;
+    height: 260px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    animation-name: anima;
+    animation-duration: 8s;
+    animation-timing-function: ease-in;
+    animation-delay:0s;
+    animation-iteration-count: infinite; /*executa a animação para sempre*/
+    /*animation-play-state: paused; pausa a animação*/
+    animation-play-state: running;
+    animation-direction: reverse;/*direção da animação, reverse animação roda no sentido anti horario*/
+}

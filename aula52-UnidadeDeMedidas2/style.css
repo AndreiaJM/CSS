@@ -1,0 +1,42 @@
+/*rem = unidade de medida que se baseia no elemento raiz e não em seu elemento pai como o em
+
+O tamanho em porcentagem é referente o tamanho do seu elemento anterior
+
+*/
+
+html{
+    font-size: 20px;
+}
+
+body{
+    font-size: 2em; /*40px*/
+}
+
+div{
+    display: inline-block;
+    width: 300px;
+}
+
+#div1{
+    height: 1em; /*40px*/
+    border: 1rem solid #f00;
+    
+}
+
+#div2{
+    border: 1px solid blue;
+    height: 1rem;
+}
+
+#div3{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    
+}
+
+#div4{
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+}

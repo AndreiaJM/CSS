@@ -1,0 +1,19 @@
+/*Trabalhando com colunas
+Nem todos os navegadores são compativeis com o columns
+
+*/
+
+p{ 
+    position: relative;
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+
+    columns: 3;
+    column-gap: 50px; /*distancia das colunas*/
+    column-rule: 1px outset #000; /*linha entre colunas*/
+    
+}

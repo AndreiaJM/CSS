@@ -1,0 +1,9 @@
+/*Com o filter pode ser alterado brilho, contraste, blur(embaçamento), escala de cinza, sombra, rotacionar matiz, inverter as cores, transparencia, saturação e cor envelhecida*/
+
+img{
+    filter: grayscale(0.5);/*Escala de cinza em porcentagem ou entre 0 e 1*/
+    filter: blur(1px);/*Embaçamento em px*/
+    filter: brightness(50%);/*Brilho em porcentagem ou entre 0 e 1*/
+    filter:contrast(50%)/*Contraste em porcentagem ou entre 0 e 1*/
+
+}

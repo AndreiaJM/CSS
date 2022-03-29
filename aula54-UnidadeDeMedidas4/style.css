@@ -1,0 +1,36 @@
+/*
+unidades de medidas absolutas não são recomendadas para web
+
+1 pt = 1,33px
+1 pc = 16px
+1 cm = 37.7952px
+1 mm = 3.7795px
+1 in = 96px
+*/
+
+#p1{
+    font-size: 26.666px;
+}
+#p2{
+    font-size:20pt; /*1 pt = 1,33px*/
+}
+#p3{
+    font-size: 20pc/*1 pc = 16px*/;
+}
+
+div{
+    border: 1px solid #000;
+}
+
+#div1{
+    width: 1cm;
+    height: 1cm;
+}
+#div2{
+    width: 10mm;
+    height: 10mm;
+}
+#div3{
+    width: 1in; /*1 polegada = 2.54 centimetros*/
+    height: 1in; /*1 polegada = 2.54 centimetros*/
+}

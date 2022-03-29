@@ -1,0 +1,18 @@
+/*A borda e padding somam pixels ao tamanho do elemento
+
+Box-size = border-box não adiciona o valor do padding e do box ao tamanho do elemento
+*/
+
+#div1{
+    width: 300px;
+    height: 200px;
+    border: 10px solid #000;
+    padding: 25px;
+    box-sizing:border-box; /*content-box é o padrão*/
+}
+
+#div2{
+    width: 300px;
+    height: 200px;
+    background: rgba(0,0,0,0.6);
+}

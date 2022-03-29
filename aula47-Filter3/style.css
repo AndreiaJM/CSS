@@ -1,0 +1,10 @@
+/*Com o filter pode ser alterado brilho, contraste, blur(embaçamento), escala de cinza, sombra, rotacionar matiz, inverter as cores, transparencia, saturação e cor envelhecida*/
+
+/*Não da para definir varias propriedades de filter, tem que ser todos na mesma metapropriedade*/
+
+img{
+    width: 500px;
+    height: 450px;
+    filter: sepia(50%) brightness(100%) drop-shadow(0px 0px 20px black);
+
+}

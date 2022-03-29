@@ -1,0 +1,52 @@
+/*
+rem = unidade de medida que se baseia no elemento raiz e não em seu elemento pai como o em
+
+% = O tamanho em porcentagem é referente o tamanho do seu elemento anterior
+
+vh = altura do viewport dividido em 100 partes
+
+vw = largura do viewport dividido em 100 partes
+
+ex = (leva em consideração as letras minusculas)baseada no tamanho da fonte do elemento pai porem com base no tamanho na letra x em minusculo
+
+
+*/
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#div1{
+    width: 90vw; /*1/100 da largura da janela*/
+    height: 90vh; /*1/100 da altura da janela*/
+    border: 1px solid #f00;
+    
+}
+
+#div2{
+    width: 50%;
+    height: 50%;
+    border: 1px solid blue;   
+}
+
+#div3{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+#div4{
+    border: 1px solid black;
+    width: 10ex;
+    height: 10ex;
+}
+
+#div5{
+    border: 1px solid black;
+    width: 10em;
+    height: 10em;
+}
