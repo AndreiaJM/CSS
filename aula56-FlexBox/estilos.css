@@ -1,0 +1,39 @@
+/*eixos quando a propriedade é definida como flex-box: 
+
+mais axis - principal (rigth/left)
+cross axis - secundario (top/bottom)
+
+
+Display flex: propriedade de container
+
+Por padrão os flex items seguem a altura do container, a não ser que seja definido uma altura para eles. Tambem ajustam o seu tamanho conforme o seu conteudo caso não definido.
+*/
+
+.item{
+    margin: 5px;
+    padding: 5px;
+    background: #447;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+}
+
+.container{
+    max-width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: solid #000 1px;
+    
+}
+
+.flexivel{
+    display: flex;
+}
+
+p{
+    text-align: center;
+    margin: 25px 0 0 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #777;
+}

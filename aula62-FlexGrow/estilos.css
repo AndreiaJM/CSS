@@ -1,0 +1,83 @@
+/*eixos quando a propriedade é definida como flex-box: 
+
+main axis
+cross axis
+
+Flex-grow = propriedade de items
+
+Flex-grow = Define o tamanho dos itens, por padrão os items possui flex grow igual a 0 ou seja o seu tamanho original é igual ao tamanho do seu conteudo
+
+***Justify content não possui ação quando usa-se flex grow pois os elementos acabam usando a linha inteira***
+
+**Não funciona caso o width do item seja especificado**
+
+*/
+
+.item{
+    margin: 5px;
+    padding: 5px;
+    background: #447;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+    
+    
+}
+
+.container{
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    border: solid #000 1px;
+    justify-content: center ; /*eixo principal*/
+    align-content: space-between;/*eixo secundario, valor padrão = stretch (estica os itens de acordo com seu container)*/
+}
+
+.quebra{
+    flex-wrap: wrap;
+}
+
+.flexivel{
+    display: flex;
+    
+}
+
+.tam0{
+    flex-grow: 0;
+}
+
+.tam1{
+    flex-grow: 1;
+}
+
+.tam2{
+    flex-grow: 2;
+}
+
+.tam3{
+    flex-grow: 3;
+}
+
+.horizontal{
+    flex-direction: row;
+    
+}
+
+/*Duas propriedades em uma*/
+.fluxo-horizontal-quebra{
+    flex-flow:row wrap ;
+    
+}
+
+.vertical{
+    flex-direction: column;
+    
+}
+
+p{
+    text-align: center;
+    margin: 25px 0 0 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #777;
+}

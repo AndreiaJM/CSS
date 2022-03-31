@@ -1,0 +1,56 @@
+/*eixos quando a propriedade é definida como flex-box: 
+
+main axis
+cross axis
+
+Justify-content= propriedade de container
+
+Justify-content= alinhamento dos itens de acordo com o main axis
+
+*/
+
+.item{
+    margin: 5px;
+    padding: 5px;
+    background: #447;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    border: solid #000 1px;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+}
+
+.flexivel{
+    display: flex;
+    
+}
+
+.horizontal{
+    flex-direction: row;
+    
+}
+
+/*Duas propriedades em uma*/
+.fluxo-horizontal-quebra{
+    flex-flow:row wrap ;
+    
+}
+
+.vertical{
+    flex-direction: column;
+    
+}
+
+p{
+    text-align: center;
+    margin: 25px 0 0 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #777;
+}

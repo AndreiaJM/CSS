@@ -1,0 +1,122 @@
+/*eixos quando a propriedade é definida como flex-box: 
+
+main axis
+cross axis
+
+Flex
+
+*/
+
+.item{
+    margin: 5px;
+    padding: 5px;
+    background: #447;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+    
+    
+    
+    
+}
+
+.container{
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    border: solid #000 1px;
+    justify-content: center ;/*eixo principal*/
+    align-items: center;/*eixo secundario, valor padrão = stretch (estica os itens de acordo com seu container)*/
+}
+
+.reduzir1{
+    flex-shrink: 1;
+}
+.reduzir2{
+    flex-shrink: 2;
+}
+.reduzir3{
+    flex-shrink: 3;
+}
+.reduzir0{
+    flex-shrink: 0;
+}
+
+.quebra{
+    flex-wrap: wrap;
+}
+
+.flexivel{
+    display: flex;
+    
+}
+
+.tam0{
+    flex-grow: 0;
+}
+
+.tam1{
+    flex-grow: 1;
+}
+
+.tam2{
+    flex-grow: 2;
+}
+
+.tam3{
+    flex-grow: 3;
+}
+
+.basea{
+    flex: auto;
+}
+.base0{
+    flex: 0;
+}
+.base1{
+    flex: 1;
+}
+.base2{
+    flex: 2;
+}
+.base3{
+    flex: 2;
+}
+
+/*
+.order0{
+    order: 0;
+}
+.order1{
+    order: 1;
+}
+.order2{
+    order: 2;
+}
+.order3{
+    order: 4;
+} */
+
+.horizontal{
+    flex-direction: row;
+    
+}
+
+/*Duas propriedades em uma*/
+.fluxo-horizontal-quebra{
+    flex-flow:row wrap ;
+    
+}
+
+.vertical{
+    flex-direction: column;
+    
+}
+
+p{
+    text-align: center;
+    margin: 25px 0 0 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #777;
+}

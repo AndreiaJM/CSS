@@ -1,0 +1,28 @@
+/*inherite = Quando a propriedade é definida com inherite, o elemento filho usa o valor do elemento pai
+
+Initial = usa o valor padrão definido para aquela tag
+
+ambos os valores podem ser aplicados em qualquer propriedade
+*/
+
+*{
+    color: #000;
+}
+
+html{
+    color: red;
+}
+body{
+    color:green;
+}
+#d1{
+    color:#f0f;
+}
+
+#d2{
+    color:#0f9;
+}
+
+h1,p{
+    color: initial;
+}

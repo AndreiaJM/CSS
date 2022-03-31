@@ -1,0 +1,56 @@
+/*eixos quando a propriedade é definida como flex-box: 
+
+mais axis
+cross axis
+
+Flex-flow = propriedade de container
+
+Flex-flow = mistura do flex direction e wrap //se definido como column não faz sentido ultilizar o wrap por ja formar a coluna
+
+*/
+
+.item{
+    margin: 5px;
+    padding: 5px;
+    background: #447;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    border: solid #000 1px;
+    flex-wrap: wrap;
+    
+}
+
+.flexivel{
+    display: flex;
+    
+}
+
+.horizontal{
+    flex-direction: row;
+    
+}
+
+/*Duas propriedades em uma*/
+.fluxo-horizontal-quebra{
+    flex-flow:row wrap ;
+    
+}
+
+.vertical{
+    flex-direction: column;
+    
+}
+
+p{
+    text-align: center;
+    margin: 25px 0 0 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #777;
+}

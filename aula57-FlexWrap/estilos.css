@@ -1,0 +1,51 @@
+/*eixos quando a propriedade é definida como flex-box: 
+
+mais axis
+cross axis
+
+flex-wrap = propriedade de container
+
+Flex-wrap = define a quebra de linha do container flexivel. O padrão é sem a quebra(no-wrap);
+
+*/
+
+.item{
+    margin: 5px;
+    padding: 5px;
+    background: #447;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+}
+
+.container{
+    max-width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: solid #000 1px;
+    flex-wrap: wrap;
+    
+}
+
+.flexivel{
+    display: flex;
+    
+}
+
+.horizontal{
+    flex-direction: row;
+    
+}
+
+.vertical{
+    flex-direction: column;
+    
+}
+
+p{
+    text-align: center;
+    margin: 25px 0 0 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #777;
+}

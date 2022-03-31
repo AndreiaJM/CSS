@@ -1,0 +1,71 @@
+/*eixos quando a propriedade é definida como flex-box: 
+
+main axis
+cross axis
+
+Align-items= propriedade de container
+
+Align-items= alinhamento dos itens de acordo com o cross axis
+
+Se definido o heigth do elemento o padrão align-items:stretch não funciona.
+
+Trabalham juntos: 
+
+Flex-direction
+justify-content
+align-items
+
+*/
+
+.item{
+    margin: 5px;
+    padding: 5px;
+    background: #447;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+    height: 30px;
+    width: calc(33.3333% - 20px); /*colocar espaço entre o sinal de subtração*/
+}
+
+.container{
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    border: solid #000 1px;
+    justify-content: center ; /*eixo principal*/
+    align-items: center;/*eixo secundario, valor padrão = stretch (estica os itens de acordo com seu container)*/
+}
+
+.quebra{
+    flex-wrap: wrap;
+}
+
+.flexivel{
+    display: flex;
+    
+}
+
+.horizontal{
+    flex-direction: row;
+    
+}
+
+/*Duas propriedades em uma*/
+.fluxo-horizontal-quebra{
+    flex-flow:row wrap ;
+    
+}
+
+.vertical{
+    flex-direction: column;
+    
+}
+
+p{
+    text-align: center;
+    margin: 25px 0 0 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #777;
+}
