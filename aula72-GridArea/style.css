@@ -1,0 +1,66 @@
+/*Grades = há propriedades para os containers e para os itens
+
+Grid Area = junção de todas as propriedades, nesta ordem: 
+
+    grid-row-start: ;
+    grid-column-start: ;
+    grid-row-end: ;
+    grid-column-end: ;
+    
+    
+
+*/
+
+body{
+    font-family: Arial;
+    color: #000;
+
+}
+
+.container{
+    display: grid; /*inline-grid*/
+    /*grid-template-columns: auto auto auto;3 colunas, auto define as colunas*/
+    grid-template-columns: auto auto  auto;/*colunas colocadas pelo tamanho*/
+
+    /*grid-column-gap: 30px;
+    grid-row-gap: 10px;*/
+
+    /*grid-gap:10px row e column*/
+    
+    
+}
+
+.item{
+    background-color: #048;
+    color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+    margin: 10px; /*adicionado do proprio item row e column*/
+}
+
+.it1{
+    grid-column-start: 1;
+    grid-column-end: 3; /*começa no 1 porem não ocupa o 3*/
+    /*grid-column: Resumo das propriedades acima*/
+
+    /*grid-column: 1 / span 3* = span=espande ate a linha 3/
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /*grid-row: Resumo das propriedades acima*/
+}
+
+.area{
+
+    /*
+    grid-row-start: ;
+    grid-column-start: ;
+    grid-row-end: ;
+    grid-column-end: ;
+    */
+
+    /*grid-area: 1 / 1 / 1 / 1; padrão*/
+    
+    grid-area: 1 / 1 / 3 / 3
+
+}

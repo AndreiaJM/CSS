@@ -1,0 +1,43 @@
+/*Grades = há propriedades para os containers e para os itens
+
+Grid gaps = PROPRIEDADE DE CONTAINER
+
+Grid gaps são os espaçamentos entre as linhas e colunas
+
+grid-column-gap: 30px;
+grid-row-gap: 10px;
+ou
+grid-gap:
+
+Usa-se o margin no item casdo não queira ultilizar o gap e não no layout como o gap
+
+Tambem há a possibilidade de somar o px do gap layout + margin do item
+
+*/
+
+body{
+    font-family: Arial;
+    color: #000;
+}
+
+.container{
+    display: grid; /*inline-grid*/
+    /*grid-template-columns: auto auto auto;3 colunas, auto define as colunas*/
+    grid-template-columns: auto auto  auto;/*colunas colocadas pelo tamanho*/
+
+    /*grid-column-gap: 30px;
+    grid-row-gap: 10px;*/
+
+    /*grid-gap:10px row e column*/
+
+    
+    
+}
+
+.item{
+    background-color: #048;
+    color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+    margin: 10px; /*adicionado do proprio item row e column*/
+}
